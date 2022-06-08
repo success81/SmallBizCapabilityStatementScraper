@@ -1,4 +1,0 @@
-nltk==3.4.5
-PyMuPDF==1.19.6
-gunicorn==20.0.4
-Jinja2==2.10.3
