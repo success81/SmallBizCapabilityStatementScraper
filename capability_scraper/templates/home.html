@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<style>
+			body {
+			  background-image: url('https://storage.googleapis.com/osdbushare/Background_Website.jpg');
+			  background-repeat: no-repeat;
+			  background-attachment: fixed;
+			  background-position: center;
+			}
+	  </style>
+	</head>
+	<body>
+		<br></br>
+		<br></br>
+		<center>
+		<h1>OSDBU Capability Statement Data Extractor</h1>
+		</center>
+		<br></br>
+		<br></br>
+		<center>
+		
+		<h3>Input full Capability Statement file directory path. PDF File only.</h3>
+			<form action="{{url_for('home')}}" method="POST" enctype = "multipart/form-data">
+	 			 <label for="myfile">Input Full Path:</label>
+	 				<input type="text" name='myfile'><br><br>
+	  			 <input type="submit">
+			</form>
+		
+		<h4>How to get the full file directory path on Windows:</h4>
+		<a href = 'https://www.howtogeek.com/670447/how-to-copy-the-full-path-of-a-file-on-windows-10/'>LINK</a>
+		<br><br>
+		<h4>How to get the full file directory path on a Mac:</h4>
+		<a href = 'https://macpaw.com/how-to/get-file-path-mac?campaign=cmmx_search_dsa_us_en&ci=10147083349&adgroupid=123618241678&adpos=&ck=&targetid=dsa-1280095875751&match=&gnetwork=g&creative=523598845867&placement=&placecat=&accname=cmm&gclid=CjwKCAjwkYGVBhArEiwA4sZLuLCLlCud1YGuKtqkk1MHkRf0Cw241Af8I2OCgmu9DTKOKcFmm_lfORoCgHwQAvD_BwE'>LINK</a>
+		</center>
+
+	</body>
+</html>
